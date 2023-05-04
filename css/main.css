@@ -1,0 +1,126 @@
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    background: rgb(163,210,171);
+    background: radial-gradient(circle, rgba(163,210,171,1) 50%, rgba(216,235,217,1) 75%);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.aside {
+    height: 400px;
+}
+.main {
+    height: 400px;
+}
+.d-flex {
+    display: flex;
+}
+.task-title {
+    font-weight: 400;
+    padding-top: 5px;
+}
+.btn{
+    color: #ffffff;
+    background-color: #8FC9A7;
+    border-color: #8FC9A7;
+    height: 55px;
+}
+.btn:hover{
+    border-color: #74C485;
+}
+.card-body{
+    background: rgb(216,235,217);
+    background: radial-gradient(circle, rgba(216,235,217,1) 7%, rgba(163,210,171,1) 50%);
+}
+
+.gray {
+    color: #BDBDBD;
+}
+.task-title--done {
+    text-decoration: line-through;
+    color: #CDCDCD;
+}
+.task-item__buttons {
+    display: flex;
+    column-gap: 5px;
+}
+.notify-holder {
+    height: 60px;
+    margin-bottom: 20px;
+}
+.sub-title{
+    font-size: 28px;
+    font-weight: 300;
+    color: #627271;
+    margin: 22px;
+
+}
+.empty-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.empty-list__title {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #627271;
+}
+.empty-list__icon {
+    color: #42BE2A;
+    font-size: 32px;
+}
+.btn-action {
+    background-color: #e0e5ea;
+    padding: 8px 10px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    transition: opacity 0.2s ease-in;
+    opacity: 0.5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-action:hover {
+    background-color: #e0e5ea;
+    opacity: 1;
+}
+
+.btn-action img {
+    pointer-events: none;
+}
+
+.none {
+    display: none !important;
+}
+
+.float-right {
+    float: right;
+}
+.copyright {
+    margin-top: 40px;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    margin-bottom: 30px;
+    /* position: absolute; */
+    /* bottom: 30px; */
+    /* left: 0; */
+    /* right: 0; */
+}
+.display-4{
+    color: #70C381;
+    border-radius: 10px;
+}
